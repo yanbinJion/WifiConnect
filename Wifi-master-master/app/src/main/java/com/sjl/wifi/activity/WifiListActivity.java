@@ -349,7 +349,7 @@ public class WifiListActivity extends AppCompatActivity {
     //包含有ibmc字段的wifi排面靠前
     List<WifiBean> tmpList =  new ArrayList<>();
     List<WifiBean> nowList = new ArrayList<>();
-    public static final String DEVICE_WIFI_NAME="c";
+    public static final String DEVICE_WIFI_NAME="ibmc";
     public void convertScanResult() {
         List<ScanResult> scanResults = mWifiHelper.getFilterScanResult();
         realWifiList.clear();

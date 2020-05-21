@@ -2,8 +2,10 @@ package com.sjl.wifi.activity;
 
 import android.content.Intent;
 import android.net.wifi.WifiInfo;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -77,6 +79,7 @@ public class WifiDetailActivity extends AppCompatActivity {
         });
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     private void initData() {
 
         Intent intent = getIntent();

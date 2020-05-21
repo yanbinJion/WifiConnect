@@ -6,8 +6,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
-import android.net.ConnectivityManager;
-import android.net.DhcpInfo;
 import android.net.NetworkInfo;
 import android.net.wifi.ScanResult;
 import android.net.wifi.WifiInfo;
@@ -22,7 +20,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -37,10 +34,7 @@ import com.sjl.wifi.widget.WifiLinkDialog;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-
-import java.text.Format;
 import java.util.ArrayList;
-import java.util.Formatter;
 import java.util.List;
 
 /**
@@ -156,7 +150,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
                 break;
             case R.id.btn_3:
-                mHasPermission2 = checkPermission2();
+             /*   mHasPermission2 = checkPermission2();
                 Log.e("YB"," mHasPermission2 :"+mHasPermission2+" wifiEnable : "+mWifiHelper.isWifiEnabled());
                 if (!mHasPermission2){
                     requestPermission2();
@@ -164,7 +158,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                      Toast.makeText(this,"wifi开关未打开",Toast.LENGTH_SHORT).show();
                 }else {
                    openActivity(GetPhoneIp.class);
-                }
+                }*/
+                openActivity(GetPhoneIp.class);
                 break;
             default:
                 break;
@@ -215,6 +210,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         return true;
     }
+
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
