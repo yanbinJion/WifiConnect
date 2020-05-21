@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_margin="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="1. Type-c连接手机和IBMC设备，选择数据传输。"
+        android:textColor="@color/mainColor"/>
+
+    <TextView
+        android:layout_margin="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="2. 请前往设置-->更多-->无线网络-->移动网络共享-->打开USB共享网络开关"
+        android:textColor="@color/mainColor"/>
+
+    <TextView
+        android:id="@+id/tvIP"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/mainColor"
+        android:text="3. 获取手机dhcp的ip地址："/>
+</LinearLayout>

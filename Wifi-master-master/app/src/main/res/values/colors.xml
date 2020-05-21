@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gray1">#F8F8F8</color>
+    <color name="gray_home">#909090</color>
+    <color name="gray2">#12B892</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="homecolor1">#1a5cc0 </color>
+    <color name="color_red">#FF5722</color>
+    <color name="black_home">#484848</color>
+
+    <color name="background">#102b6a</color>
+
+    <color name = "blue_normal">#0090ff</color>
+        <!-- 主色 -->
+        <color name="mainColor">#E52020</color>
+        <!-- 与主色搭配的颜色-->
+        <color name="mainMatchColor">#ffffff</color>
+        <!-- 渐变主色 -->
+        <color name="mainColorGradient">#FA3163</color>
+        <!-- 辅助色 -->
+        <color name="secondaryColor">#FFA725</color>
+        <!-- 标题主色 -->
+        <color name="titleTextColor">#000000</color>
+        <!-- 正文主色 -->
+        <color name="mainTextColor">#333333</color>
+        <!-- 文本辅色 -->
+        <color name="secondaryTextColor">#666666</color>
+        <!-- 文本标签颜色 -->
+        <color name="thirdTextColor">#999999</color>
+        <!-- 背景底色 -->
+        <color name="bottomColor">#f5f5f5</color>
+
+        <!-- 细线的颜色-->
+        <color name="lineColor">#ebebeb</color>
+        <!-- 细线的颜色2-->
+        <color name="lineColor2">#d9d9d9</color>
+
+        <color name="mainMatchColor_70">#b3ffffff</color>
+        <color name="mainMatchColor_80">#ccffffff</color>
+        <color name="mainMatchColor_60">#99ffffff</color>
+        <color name="mainMatchColor_30">#4Dffffff</color>
+        <color name="mainColor_6">#0FE52020</color>
+
+
+
+        <color name="gray_999999">#999999</color>
+
+        <color name="tran_white_60">#99ffffff</color>
+        <color name="transparent">#00000000</color>
+
+        <color name="red_f41f2e">#F41F2E</color>
+        <color name="red_e52020">#E52020</color>
+        <color name="purple_d7a6fc">#D7A6FC</color>
+        <color name="black_323332">#323332</color>
+        <color name="black_2b2b2b">#2B2B2B</color>
+        <color name="black">#000000</color>
+        <color name="black_494959">#494959</color>
+        <color name="blue_7f63f9">#7F63F9</color>
+        <color name="blue_68a0f4">#68A0F4</color>
+        <color name="blue_785afe">#785AFE</color>
+        <color name="gray_86868c">#86868C</color>
+        <color name="gray_f3f3f3">#f3f3f3</color>
+        <color name="gray_ebebeb">#ebebeb</color>
+        <color name="gray_fff3f3f3">#fff3f3f3</color>
+        <color name="gray_d7d8da">#D7D8DA</color>
+        <color name="gray_c2c2c2">#c2c2c2</color>
+        <color name="gray_cccccc">#cccccc</color>
+        <color name="gray_f5f5f5">#f5f5f5</color>
+        <color name="gray_f4f4f4">#f4f4f4</color>
+        <color name="tran_black_20">#33000000</color>
+        <color name="tran_black_10">#1a000000</color>
+        <color name="tran_black_30">#4D000000</color>
+        <color name="tran_gray_50">#80333333</color>
+        <color name="tran_black_80">#33000000</color>
+        <color name="yellow_fdc460">#FDC460</color>
+        <color name="yellow_fca918">#FCA918</color>
+
+
+        <color name="sidebar_default_side_text_color">#ff646464</color>
+        <color name="sidebar_default_side_text_select_color">#ffffffff</color>
+        <color name="sidebar_default_side_background">#ffb2b2b2</color>
+        <color name="sidebar_default_dialog_text_color">#ffffffff</color>
+        <color name="sidebar_default_dialog_text_bg_color">#80000000</color>
+        <!-- 透明度60%,不透明度40%-->
+        <color name="btn_red_black60">#99E52020</color>
+        <!-- 透明度10%，不透明度90%-->
+        <color name="btn_red_black10">#e6E52020</color>
+        <color name="btn_telephone">#1Affffff</color>
+        <!--透明度60%，不透明度40%-->
+        <color name="mainTextColor_60_2">#66333333</color>
+        <color name="gray_f5e8e8">#F5E8E8</color>
+        <color name="main_80">#CCE52020</color>
+        <!--20主色透明度-->
+        <!--50透明度-->
+        <color name="mainLoginBottom">#80FFFFFF</color>
+        <color name="symbol_title">#151515 </color>
+        <color name="gray_33000000">#33000000</color>
+        <color name="gray_ededed">#ededed</color>
+        <color name="green_04c160">#04c160</color>
+
+</resources>

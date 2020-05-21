@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <cn.bingoogolapple.qrcode.zbar.ZBarView
+        android:id="@+id/zScanview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:qrcv_animTime="1000"
+        app:qrcv_borderColor="@color/secondaryTextColor"
+        app:qrcv_borderSize="0.5dp"
+        app:qrcv_cornerColor="@color/mainColor"
+        app:qrcv_cornerLength="17dp"
+        app:qrcv_cornerSize="2dp"
+        app:qrcv_maskColor="#33FFFFFF"
+        app:qrcv_rectWidth="260dp"
+        app:qrcv_isAutoZoom="true"
+        app:qrcv_isOnlyDecodeScanBoxArea="true"
+        app:qrcv_scanLineColor="@color/mainColor"
+        app:qrcv_scanLineSize="1.5dp"
+        app:qrcv_verticalBias="0.5" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <TextView
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:text="扫一扫"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_centerVertical="true"
+            android:src="@mipmap/icon_back_white"
+            android:id="@+id/ivBack"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:textColor="@color/mainColor"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="将条码/二维码放入框内"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:visibility="gone"
+        android:background="@color/red_f41f2e"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ivResult"
+        android:layout_alignParentBottom="true"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+</RelativeLayout>
